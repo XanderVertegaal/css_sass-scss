@@ -1,0 +1,10 @@
+$def-padding: 20px;
+$col-black: #000;
+$col-white: #FFF;
+$col-background: #c0eea9;
+
+@mixin def-text {
+  max-width: 700px;
+  text-align: center;
+  padding: $def-padding;
+}
